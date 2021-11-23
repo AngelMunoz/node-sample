@@ -1,0 +1,19 @@
+{
+    // opciones para vscode
+    // y otros editores de texto
+    "compilerOptions": {
+        "checkJs": true,
+        "target": "ES2015",
+        "moduleResolution": "node",
+        // habilitar cjs/mjs interop de dependencias
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "typeAcquisition": {
+        // habilitar las definiciones
+        // de tipos en caso de que existan
+        // para esta libreria
+        "enable": true,
+        "include": []
+    }
+}
